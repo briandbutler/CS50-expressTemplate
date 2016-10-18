@@ -150,7 +150,7 @@ NPM
 ## Authors
 * **Dylan Tackoor** - [CS50xMiami Teaching Fellow](http://www.dylantackoor.com)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/DylanTackoor/CS50-expressTemplate/graphs/contributors) who participated in this project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
