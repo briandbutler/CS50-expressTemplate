@@ -24,7 +24,7 @@ $ npm install -g nodemon
     - ```$ npm isntall ```
 - Start your server to see if it works
     - ```$ nodemon  ```
-- If it doesn't immediately break, check out [localhost:3000](localhost:3000) in your browser to double check everything is running fine
+- If it doesn't immediately break, check out [localhost:3000](http://www.localhost:3000) in your browser to double check everything is running fine
 
 ---
 
