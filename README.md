@@ -1,55 +1,58 @@
-# CS50-expressTemplate
+# CS50xMiami Express Template
 ![Express and Node.js](https://i.ytimg.com/vi/aHqnFWLP7wA/maxresdefault.jpg)
 
----
 ## Table of Contents
+* [1 Prerequisites](#prerequisites)
+  * [1.1 Node.js and NPM packages](#nodejs-and-npm-packages)
+  * [1.2 Git](#git)
+* [2 Setup](#setup)
+  * [2.1 Server Setup](#server-setup)
+  * [2.2 Git Setup](#git-setup)
+* [3 Express Server Anatomy](#express-server-anatomy)
+  * [3.1 View](#view)
+    * [3.1.1 Public](#public)
+    * [3.1.2 Views](#views)
+  * [3.2 Controller](#controller)
+    * [3.2.1 App.js](#appjs)
+    * [3.2.2 Routes](#routes)
+* [4 NPM](#npm)
+* [5 Authors](#authors)
+* [6 License](#license)
+* [7 Acknowledgments](#acknowledgments)
 
-- Prerequisites
-- Setup
-  - Git
-  - Server Setup
-- Git Setup
-- Express Server Anatomy
-  - Controller
-    - App.js
-    - Routes
-  - View
-    - Public
-    - Views
-- NPM
 
----
 ## Prerequisites
+You'll have to run through the prerequisites if you wish to follow along
 
-You'll need the latest LTS [Node.js](https://nodejs.org/en/) release installed in order to install these prerequisites.
-```sh
+### Node.js and NPM packages
+First, you'll need the latest LTS [Node.js](https://nodejs.org/en/) release installed in order to install these prerequisites.
+
+```bash
 $ npm install -g express-generator
 $ npm install -g nodemon
 ```
----
 
-## Setup
 ### Git
 - [Create a new git repository](https://github.com/new) ("example.com")
+
+## Setup
+Setup
 
 ### Server Setup
 - cd into your project (should be obvious by now ;))
     - ```$ cd example.com ```
     - ```$ pwd ```
-- Run express generator with the ejs flag
+- Rather than build an express server from a blank text file, we'll generate a very basic template using express-generator.
     -  ```$ express --ejs ```
 - Install node modules
     - ```$ npm isntall ```
 - Start your server to see if it works
     - ```$ nodemon  ```
-- If it doesn't immediately break, check out [localhost:3000](http://www.localhost:3000) in your browser to double check everything is running fine
-
----
+- If nodemon doesn't spit out an error, check out [localhost:3000](http://www.localhost:3000) in your browser to double check everything is running fine
 
 ## Git Setup
 Before we can push our code to git, we need to create a ".gitignore" file inside the root of our git repo to prevent git from adding the following OS specific code, logs, etc.
-
-```
+```bash
 # Logs
 logs
 *.log
@@ -89,7 +92,7 @@ jspm_packages
 .node_repl_history
 ```
 
-Once the .gitignore file has been both created and commited to the repository, we can start commiting the rest of our code without worry.
+Once the .gitignore file has been both created and committed to the repository, we can start committing the rest of our code without worry.
 - First commit .gitignore
   - ```$ git add .gitignore```
   - ```$ git commit -m "created .gitignore to filter unwanted nodejs files"```
@@ -99,21 +102,39 @@ Once the .gitignore file has been both created and commited to the repository, w
 - Push your commits to GitHub!
   - ```$ git push```
 
----
-
 ## Express Server Anatomy
-### Controller
-#### App.js
-#### Routes
+The Express.js server we generated follows MVC structure.
 
 ### View
-#### Public
-#### Views
+View
 
----
+#### Public
+Public
+
+#### Views
+Views
+
+### Controller
+Controller
+
+#### App.js
+App.js
+
+#### Routes
+Routes
 
 ## NPM
-
 NPM
 
----
+## Authors
+* **Dylan Tackoor** - *Initial work* - [CS50xMiami Teaching Fellow](http://www.dylantackoor.com)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+* [Express.js](https://github.com/expressjs)
+* [EJS](https://github.com/mde/ejs)
+* [Nodemon](https://github.com/remy/nodemon)
