@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
+<%- include('../views/partials/_head.ejs'); %>
+<%- include('../views/partials/_navbar.ejs'); %>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <!-- Mobile Responeive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <!-- Windows phone tab color -->
-    <meta name="msapplication-navbutton-color" content="#009688">
-    <!-- Chrome for Android tab color -->
-    <meta name="theme-color" content="#009688">
-    <!-- Apple Safari icon -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Safari 9 Pinned tabs in El Capitan (I slightly broke this svg!) -->
-    <link rel="mask-icon" href="safariPinnedTab.svg" color="#009688">
-
-    <link rel='stylesheet' href='/css/partials/_footer.css' />
-    <link rel='stylesheet' href='/css/partials/_navbar.css' />
-    <link rel='stylesheet' href='/css/style.css' />
-    <link rel='stylesheet' href='/css/index.css' />
-  </head>
-  <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
     <img src="/img/frenchie.jpg" alt="French Bulldog Puppy" />
 
-    <script type="text/javascript" src="/js/helloworld.js"></script>
-  </body>
-</html>
+<%- include('../views/partials/_footer.ejs'); %>
+<%- include('../views/partials/_scripts.ejs'); %>
