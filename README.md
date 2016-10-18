@@ -2,7 +2,23 @@
 ![Express and Node.js](https://i.ytimg.com/vi/aHqnFWLP7wA/maxresdefault.jpg)
 
 ---
-## Prereqs
+## Table of Contents
+
+- Prerequisites
+- Setup
+  - Git
+  - Server Setup
+- Git Setup
+- Express Server Anatomy
+  - Controller
+    - App.js
+    - Routes
+  - View
+    - Public
+    - Views
+- NPM
+---
+## Prerequisites
 
 You'll need the latest LTS [Node.js](https://nodejs.org/en/) release installed in order to install these prerequisites.
 ```sh
@@ -10,6 +26,7 @@ $ npm install -g express-generator
 $ npm install -g nodemon
 ```
 ---
+
 ## Setup
 ### Git
 - [Create a new git repository](https://github.com/new) ("example.com")
@@ -28,7 +45,7 @@ $ npm install -g nodemon
 
 ---
 
-## First Git Push
+## Git Setup
 Before we can push our code to git, we need to create a ".gitignore" file inside the root of our git repo to prevent git from adding the following OS specific code, logs, etc.
 
 ```
@@ -81,4 +98,21 @@ Once the .gitignore file has been both created and commited to the repository, w
 - Push your commits to GitHub!
   - ```$ git push```
 
-----
+---
+
+## Express Server Anatomy
+### Controller
+#### App.js
+#### Routes
+
+### View
+#### Public
+#### Views
+
+---
+
+## NPM
+
+NPM
+
+---
