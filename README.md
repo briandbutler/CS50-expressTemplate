@@ -5,7 +5,7 @@ You'll need the latest LTS [Node.js](https://nodejs.org/en/) release installed i
 $ npm install -g express-generator
 $ npm install -g nodemon
 ```
-
+---
 ### Setup
 ##### Git
 - [Create a new git repository](https://github.com/new) ("example.com")
@@ -21,7 +21,7 @@ $ npm install -g nodemon
 - Start your server to see if it works
     - ```$ nodemon  ```
 - If it doesn't immediately break, check out [localhost:3000](localhost:3000) in your browser to double check everything is running fine
-
+---
 ##### First Git Push
 Before we can push our code to git, we need to create a ".gitignore" file inside the root of our git repo to prevent git from adding the following OS specific code, logs, etc.
 
@@ -74,3 +74,4 @@ Once the .gitignore file has been both created and commited to the repository, w
   - ```$ git commit -m "Express server templated generated"```
 - Push your commits to GitHub!
   - ```$ git push```
+----
