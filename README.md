@@ -1,7 +1,7 @@
 # CS50-expressTemplate
 
 ### Prereqs
-You'll need the latest LTS [Node.js] release installed in order to install these prerequisites.
+You'll need the latest LTS [Node.js](https://nodejs.org/en/) release installed in order to install these prerequisites.
 ```sh
 $ npm install -g express-generator
 $ npm install -g nodemon
@@ -9,7 +9,7 @@ $ npm install -g nodemon
 
 ### Setup
 ##### Git
-- Create your git Repository ("example.com")
+- [Create a new git repository](https://github.com/new) ("example.com")
 
 ##### Server Setup
 - cd into your project (should be obvious by now ;))
