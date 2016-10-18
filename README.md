@@ -106,12 +106,13 @@ Once the .gitignore file has been both created and committed to the repository, 
 The Express.js server we generated follows MVC structure. I'll cover setting up a basic view and transition into creating templates with the controller.
 
 Directory structure:
-
 ```
 example.com
 ├── app.js
 ├── bin
 │   └── www
+├── node_modules/
+│   └── (╯°□°)╯︵ ┻━┻
 ├── package.json
 ├── public
 │   ├── images
