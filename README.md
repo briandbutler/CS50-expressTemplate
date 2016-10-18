@@ -1,5 +1,9 @@
 # CS50-expressTemplate
+![Express and Node.js](https://i.ytimg.com/vi/aHqnFWLP7wA/maxresdefault.jpg)
+
+---
 ### Prereqs
+
 You'll need the latest LTS [Node.js](https://nodejs.org/en/) release installed in order to install these prerequisites.
 ```sh
 $ npm install -g express-generator
@@ -74,4 +78,5 @@ Once the .gitignore file has been both created and commited to the repository, w
   - ```$ git commit -m "Express server templated generated"```
 - Push your commits to GitHub!
   - ```$ git push```
+  
 ----
