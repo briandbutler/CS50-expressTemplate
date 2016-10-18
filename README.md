@@ -103,7 +103,28 @@ Once the .gitignore file has been both created and committed to the repository, 
   - ```$ git push```
 
 ## Express Server Anatomy
-The Express.js server we generated follows MVC structure.
+The Express.js server we generated follows MVC structure. I'll cover setting up a basic view and transition into creating templates with the controller.
+
+Directory structure:
+
+```
+example.com
+├── app.js
+├── bin
+│   └── www
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.ejs
+    └── index.ejs
+```
 
 ### View
 View
@@ -127,7 +148,7 @@ Routes
 NPM
 
 ## Authors
-* **Dylan Tackoor** - *Initial work* - [CS50xMiami Teaching Fellow](http://www.dylantackoor.com)
+* **Dylan Tackoor** - [CS50xMiami Teaching Fellow](http://www.dylantackoor.com)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
