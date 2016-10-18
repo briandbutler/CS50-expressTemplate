@@ -156,6 +156,6 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-* [Express.js](https://github.com/expressjs)
+* [Express.js](https://github.com/expressjs/express)
 * [EJS](https://github.com/mde/ejs)
 * [Nodemon](https://github.com/remy/nodemon)
