@@ -1,11 +1,11 @@
-<%- include('../views/partials/_head.ejs'); %>
-<%- include('../views/partials/_navbar.ejs'); %>
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-    <p>The current stylesheet is <%= css %>.css</p>
-    <a href="/login"><p>to login</p></a>
-    <img src="/img/frenchie.jpg" alt="French Bulldog Puppy" />
-
-<%- include('../views/partials/_footer.ejs'); %>
-<%- include('../views/partials/_scripts.ejs'); %>
+  </body>
+</html>
